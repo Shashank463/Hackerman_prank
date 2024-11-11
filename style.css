@@ -17,11 +17,11 @@ body {
     background-color: black;
     background-image: url(https://img.freepik.com/premium-photo/dangerous-anonymous-hacker-man-black-hooded-using-computer-breaking-into-security-data-corporate-server-he-sitting-working-black-background-internet-crime-cyber-attack-security-concept_44289-1307.jpg);
     background-size: contain;
-    height: 645px;
+    height: 640px;
     margin-left: 300px;
     margin-right: 300px;
     color: darkgreen;
-    margin-bottom: 15px;
+
 
     
 }
@@ -56,3 +56,30 @@ body {
     
 }
 
+
+
+footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    padding: 10px 0; /* Padding for spacing */
+    position: fixed; /* Fixed at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Footer text styling */
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #00bfff; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
