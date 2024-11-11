@@ -1,0 +1,58 @@
+body {
+
+    background-image: url(https://th.bing.com/th/id/OIP.Bsyh1mv9Hm73rrZOwvWtVQHaEI?rs=1&pid=ImgDetMain);
+
+}
+
+
+.para {
+    margin-left: 65px;
+    font-style: italic;
+    font-size: x-large;
+    color: darkgreen;
+}
+
+.main {
+    display: flexbox;
+    background-color: black;
+    background-image: url(https://img.freepik.com/premium-photo/dangerous-anonymous-hacker-man-black-hooded-using-computer-breaking-into-security-data-corporate-server-he-sitting-working-black-background-internet-crime-cyber-attack-security-concept_44289-1307.jpg);
+    background-size: contain;
+    height: 645px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: darkgreen;
+    margin-bottom: 15px;
+
+    
+}
+
+#heading {
+    display: flexbox;
+    text-align: center;
+    font-size: 65px;
+    color: red;
+    font-style:oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+
+
+
+#bt {
+    color: black;
+    background-color: darkgreen;
+}
+
+
+#input {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 25px;
+    margin-right: 225px;
+    
+}
+
