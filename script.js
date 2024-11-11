@@ -1,12 +1,18 @@
-function startHacking(){
-const name = document.getElementsByClassName("user name")[0].value;
+function startHacking(e) {
+  e.preventDefault();
 
-let a = [    "Initialising hack program........",
+  const name = document.getElementsByClassName("input")[0].value;
+  if (!name)
+    return alert("Enter Username")
+  
+
+  let a = [
+    "Initialising hack program........",
     "Scanning networks for vulnerable systems........",
-    "Hacking "+name+"........",
+    "Hacking " + name + "........",
     "Attempting brute force on password........",
-    "Password found for "+name+" : ***encrypted***........",
-    "Accessing "+name+" account........",
+    "Password found for " + name + " : ***encrypted***........",
+    "Accessing " + name + " account........",
     "Retrieving personal data........",
     "Decrypting stored files........",
     "Creating backdoor access to system........",
@@ -16,34 +22,17 @@ let a = [    "Initialising hack program........",
     "Password for account 'Banking' retrieved: ***decrypted_password***........",
     "Generating password for new account.........",
     "Password creation successful........",
-    "Hacking complete. Disconnecting from the network........"
-]
+    "Hacking complete. Disconnecting from the network........",
+  ];
 
-
-
-let elem = document.getElementsByClassName("para")[0];
-console.log(elem);
-for (let i = 0; i < a.length; i++) {
-    setTimeout (() => {
-        elem.innerHTML += a[i] + "<br>";
-    },i*3000);
-}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  let elem = document.getElementsByClassName("para")[0];
+  console.log(elem);
+  for (let i = 0; i < a.length; i++) {
+    setTimeout(() => {
+      elem.innerHTML += a[i] + "<br>";
+    }, i * 3000);
+  }
+}
 
 
 

@@ -14,12 +14,14 @@
 
         <div class="main"><h1 id = "heading">HackerMAn</h1>
 
-            <div id = "input">
+            <form id = "input" onsubmit="startHacking(event)">
                 <div><h2>Enter user name :</h2></div>
-                <div><input type="text" class = "user name" placeholder="Enter user name : ">
-                    <button id = "bt" onclick="startHacking()">Hack</button></div>
+                <div><input type="text" class = "input" placeholder="Enter user name : ">
+                    <button class = "bt" type="submit">Hack</button>
+                    <button class="bt" type="reset">reset</button>
+                </div>
                 <!-- <div><button id = "bt" onclick="startHacking()">Hack</button></div> -->
-            </div>
+            </form>
 
 
             <p class = "para"></p></div>

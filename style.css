@@ -1,26 +1,23 @@
 body {
 
-    background-image: url(https://th.bing.com/th/id/OIP.Bsyh1mv9Hm73rrZOwvWtVQHaEI?rs=1&pid=ImgDetMain);
+    background-image: url(https://img.freepik.com/premium-photo/dangerous-anonymous-hacker-man-black-hooded-using-computer-breaking-into-security-data-corporate-server-he-sitting-working-black-background-internet-crime-cyber-attack-security-concept_44289-1307.jpg);
 
 }
 
 
 .para {
-    margin-left: 65px;
-    font-style: italic;
-    font-size: x-large;
-    color: darkgreen;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
+    font-size: 16px;
+    color: rgb(57, 163, 57);
 }
 
 .main {
     display: flexbox;
-    background-color: black;
-    background-image: url(https://img.freepik.com/premium-photo/dangerous-anonymous-hacker-man-black-hooded-using-computer-breaking-into-security-data-corporate-server-he-sitting-working-black-background-internet-crime-cyber-attack-security-concept_44289-1307.jpg);
-    background-size: contain;
+    background-color: transparent;
+    /* background-image: url(https://img.freepik.com/premium-photo/dangerous-anonymous-hacker-man-black-hooded-using-computer-breaking-into-security-data-corporate-server-he-sitting-working-black-background-internet-crime-cyber-attack-security-concept_44289-1307.jpg);
+    background-size: contain; */
     height: 640px;
-    margin-left: 300px;
-    margin-right: 300px;
-    color: darkgreen;
+    color: rgb(60, 201, 60);
 
 
     
@@ -40,9 +37,9 @@ body {
 
 
 
-#bt {
+.bt {
     color: black;
-    background-color: darkgreen;
+    background-color: rgb(60, 201, 60);
 }
 
 
@@ -50,13 +47,16 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 15px;
-    margin-left: 25px;
-    margin-right: 225px;
-    
+    gap: 15px; 
 }
 
-
+.input{
+    background-color: transparent;
+    padding: 8px;
+    border: none;
+    outline: none;
+    color: rgb(60, 201, 60); 
+}
 
 footer {
     background-color: #333; /* Dark background */
